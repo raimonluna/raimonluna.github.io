@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — Raimon Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide">
+    <a href="index.html" class="brand">Raimon Luna<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="math-is-beautiful.html">Math is Beautiful</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">Publications</span>
+      <h1>Papers &amp; articles</h1>
+      <p class="lede">
+        A full, up-to-date list lives on my
+        <a href="https://inspirehep.net/" target="_blank" rel="noopener">INSPIRE-HEP profile</a>.
+        This page is generated from a local file exported from there.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+
+      <p class="pub-note">
+        This list is rendered from <code>data/publications.json</code>, which I update by
+        re-exporting BibTeX from INSPIRE-HEP. See <code>data/README.md</code> in the
+        repository for the one-step conversion process.
+      </p>
+
+      <div class="pub-controls">
+        <input type="text" id="pub-search" class="pub-search" placeholder="Search by title, author, or year…" aria-label="Search publications">
+        <span class="pub-sort" id="pub-count"></span>
+      </div>
+
+      <ul class="pub-list" id="pub-list">
+        <li class="pub-loading">Loading publications…</li>
+      </ul>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <span>&copy; 2026 Raimon Luna. Built with plain HTML/CSS/JS.</span>
+    <span><a href="mailto:raimonlunaiperello@ub.edu">raimonlunaiperello@ub.edu</a></span>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+<script src="js/publications.js"></script>
+</body>
+</html>

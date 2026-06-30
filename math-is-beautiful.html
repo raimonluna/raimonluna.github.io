@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Math is Beautiful — Raimon Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide">
+    <a href="index.html" class="brand">Raimon Luna<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="math-is-beautiful.html">Math is Beautiful</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="wrap-wide">
+      <div class="mb-intro">
+        <div>
+          <span class="eyebrow">Math is Beautiful</span>
+          <h1>A gallery of generative mathematics</h1>
+          <p class="lede" style="margin-bottom:0;">
+            Square images generated from code — fractals, dynamical systems, and geometric
+            constructions. Click any tile for the full image, the story behind it, and a
+            link to the code that made it.
+          </p>
+        </div>
+        <a href="https://www.instagram.com/raimon.luna/" target="_blank" rel="noopener">@raimon.luna on Instagram →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap-wide">
+
+      <!-- TEMPLATE TILES — duplicate one of these <button class="mb-tile"> blocks for each
+           new piece. The thumbnail in the grid is always a still image (data-thumb); the
+           lightbox shows either a larger image OR a looping video, depending on which file
+           extension data-full points to (.mp4/.webm → video, anything else → image).
+
+           Required data attributes:
+             data-thumb : path to the square thumbnail shown in the grid (always an image)
+             data-full  : path to what opens in the lightbox — an image OR a short video
+             data-date  : short date/series label, shown as the eyebrow in the lightbox
+             data-title : title of the piece
+             data-p1    : first paragraph of explanatory text
+             data-p2    : second paragraph of explanatory text
+             data-repo  : link to the GitHub repository with the generating code
+      -->
+      <div class="mb-grid">
+
+        <!-- Example 1: static image -->
+        <button class="mb-tile"
+          data-thumb="images/math-beautiful/template.jpg"
+          data-full="images/math-beautiful/template-full.jpg"
+          data-date="Series · 2026"
+          data-title="Template piece title"
+          data-p1="First paragraph: what the image shows mathematically — the construction, equation, or process behind it, written for a curious non-specialist."
+          data-p2="Second paragraph: why it's interesting — a surprising property, a connection to physics, or the visual idea that made it worth generating."
+          data-repo="https://github.com/your-username/math-is-beautiful">
+          <img src="images/math-beautiful/template.jpg" alt="Template mathematical image">
+          <span class="mb-cap">Template piece title</span>
+        </button>
+
+        <!-- Example 2: short looping animation. The grid thumbnail is still a still image
+             (data-thumb) — only the lightbox plays the video, via data-full. -->
+        <button class="mb-tile"
+          data-thumb="images/math-beautiful/template-video-poster.jpg"
+          data-full="images/math-beautiful/template-video.mp4"
+          data-date="Series · 2026"
+          data-title="Template animation title"
+          data-p1="First paragraph: describe what's animating and why — e.g. a parameter sweeping through a family of curves, or an iterative process converging."
+          data-p2="Second paragraph: the interesting bit — what to watch for, or what it connects to."
+          data-repo="https://github.com/your-username/math-is-beautiful">
+          <img src="images/math-beautiful/template-video-poster.jpg" alt="Template animation poster frame">
+          <span class="mb-cap">Template animation title</span>
+        </button>
+
+      </div>
+
+      <p class="muted" style="margin-top:2rem;font-size:0.9rem;">
+        To add a new piece: duplicate one of the <span class="mono">&lt;button class="mb-tile"&gt;</span>
+        blocks above with new files and new <span class="mono">data-*</span> attributes. Use the
+        first pattern for static images, the second for short animations — whether the
+        lightbox shows an image or plays a video is decided automatically from the file
+        extension in <span class="mono">data-full</span> (<span class="mono">.mp4</span> /
+        <span class="mono">.webm</span> → video). For videos, keep a still "poster" frame as
+        the grid thumbnail (<span class="mono">data-thumb</span>) since the grid never
+        autoplays — only the lightbox does.
+      </p>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <span>&copy; 2026 Raimon Luna. Built with plain HTML/CSS/JS.</span>
+    <span><a href="mailto:raimonlunaiperello@ub.edu">raimonlunaiperello@ub.edu</a></span>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image detail">
+  <div class="lightbox-panel">
+    <div class="lightbox-img" id="lightbox-media"></div>
+    <div class="lightbox-text">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+      <span class="eyebrow" id="lightbox-eyebrow"></span>
+      <h3 id="lightbox-title"></h3>
+      <div id="lightbox-text"></div>
+      <a class="repo-link" id="lightbox-repo" href="#" target="_blank" rel="noopener">View code on GitHub →</a>
+    </div>
+  </div>
+</div>
+
+<script src="js/site.js"></script>
+<script src="js/math-beautiful.js"></script>
+</body>
+</html>

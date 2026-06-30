@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — Raimon Luna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap-wide">
+    <a href="index.html" class="brand">Raimon Luna<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
+    <nav class="site-nav">
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="math-is-beautiful.html">Math is Beautiful</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">Research</span>
+      <h1>What I work on</h1>
+      <p class="lede">
+        My research sits at the intersection of gravity, holography, and computation —
+        using analytical and numerical tools, increasingly aided by machine learning,
+        to understand the dynamics of black holes and other compact objects.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap">
+
+      <div class="research-panel">
+        <div class="research-fig">
+          <img src="images/research/large-d-gravity.jpg" alt="Illustration for large D gravity">
+        </div>
+        <div class="research-body">
+          <span class="tag">Large D Gravity</span>
+          <h2>The large number-of-dimensions limit of General Relativity</h2>
+          <p>
+            When the number of spacetime dimensions D is taken to be very large, Einstein's
+            equations simplify dramatically: gravity becomes localized near horizons and
+            behaves like an effective theory of a membrane embedded in flat space. This
+            "large D" expansion turns notoriously hard problems — black hole instabilities,
+            collisions, and the fate of cosmic censorship — into tractable effective
+            equations. My work has used this limit to study black string instabilities,
+            black hole fusion and fission, and violations of cosmic censorship in higher
+            dimensions.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-panel">
+        <div class="research-fig">
+          <img src="images/research/numerical-relativity.jpg" alt="Illustration for numerical relativity">
+        </div>
+        <div class="research-body">
+          <span class="tag">Numerical Relativity</span>
+          <h2>Simulating strong-field gravity</h2>
+          <p>
+            Many of the most interesting regimes of gravity — black hole mergers, exotic
+            compact object collisions, the nonlinear development of instabilities — have no
+            closed-form solution and have to be evolved numerically. I work on numerical
+            relativity simulations of these systems, including head-on mergers of Proca
+            stars, charged black hole binaries, and the nonlinear development of strong
+            cosmic censorship violation, often building surrogate waveform models that make
+            these simulations usable for gravitational-wave parameter estimation.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-panel">
+        <div class="research-fig">
+          <img src="images/research/holography.jpg" alt="Illustration for AdS/CFT holography">
+        </div>
+        <div class="research-body">
+          <span class="tag">AdS/CFT Holography</span>
+          <h2>Black holes as holographic duals</h2>
+          <p>
+            The AdS/CFT correspondence relates gravity in Anti-de Sitter space to a
+            conformal field theory living on its boundary. I have used this duality,
+            together with the large D limit, to study the holographic duals of evaporating
+            black holes, plasma polarization and Love numbers of black branes, and
+            high-energy holographic collisions — connecting gravitational dynamics to the
+            language of strongly coupled quantum field theory.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-panel">
+        <div class="research-fig">
+          <img src="images/research/machine-learning.jpg" alt="Illustration for machine learning in gravity">
+        </div>
+        <div class="research-body">
+          <span class="tag">Machine Learning for Strong Gravity</span>
+          <h2>Physics-informed neural networks as differential equation solvers</h2>
+          <p>
+            A more recent thread of my research uses physics-informed neural networks
+            (PINNs) to solve the differential equations that govern black hole perturbation
+            theory and modified gravity — including the Teukolsky and Regge–Wheeler–Zerilli
+            equations, and quasinormal mode problems beyond General Relativity. These
+            methods offer a fast, flexible alternative to traditional numerical solvers and
+            are increasingly useful for modeling protoneutron star oscillations and other
+            time-dependent strong-gravity systems.
+          </p>
+        </div>
+      </div>
+
+      <div class="research-panel">
+        <div class="research-fig">
+          <img src="images/research/gravitational-waves.jpg" alt="Illustration for gravitational wave astronomy">
+        </div>
+        <div class="research-body">
+          <span class="tag">Gravitational-Wave Astrophysics</span>
+          <h2>From simulations to observable signals</h2>
+          <p>
+            Ultimately, much of this work feeds into gravitational-wave astrophysics:
+            building waveform models for exotic compact objects and hyperbolic encounters,
+            understanding parameter-estimation biases when comparing models to data, and
+            connecting strong-field simulations to what current and future detectors can
+            actually observe.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap-wide">
+    <span>&copy; 2026 Raimon Luna. Built with plain HTML/CSS/JS.</span>
+    <span><a href="mailto:raimonlunaiperello@ub.edu">raimonlunaiperello@ub.edu</a></span>
+  </div>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
