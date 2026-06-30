@@ -42,7 +42,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     lbEyebrow.textContent = data.date || "";
     lbTitle.textContent = data.title || "";
-    lbText.innerHTML = `<p>${data.p1 || ""}</p><p>${data.p2 || ""}</p>`;
+    const paragraphs = Object.keys(data)
+      .filter((key) => /^p\d+$/.test(key))
+      .sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)))
+      .map((key) => `<p>${data[key]}</p>`)
+      .join("");
+    lbText.innerHTML = paragraphs;
     if (data.repo) {
       lbRepo.href = data.repo;
       lbRepo.style.display = "inline-flex";

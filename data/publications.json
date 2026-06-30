@@ -2,148 +2,307 @@
   {
     "year": 2025,
     "title": "Protoneutron star oscillations including accretion flows",
-    "authors": ["D. Tseneklidou", "Raimon Luna", "P. Cerdá-Durán", "A. Torres-Forné"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/b3ty-cr5g"
+    "authors": [
+      "Dimitra Tseneklidou",
+      "Raimon Luna",
+      "Pablo Cerdá-Durán",
+      "Alejandro Torres-Forné"
+    ],
+    "venue": "Phys. Rev. D, vol. 112, no. 10, p. 103032, 2025.",
+    "doi": "10.1103/b3ty-cr5g",
+    "arxiv": "2503.16317",
+    "inspire": null
   },
   {
     "year": 2025,
     "title": "Numerical-relativity surrogate model for hyperbolic encounters of black holes: Challenges in parameter estimation",
-    "authors": ["J. Fontbuté", "T. Andrade", "Raimon Luna", "J. Calderón-Bustillo", "G. Morrás", "S. Jaraba", "J. García-Bellido", "G. L. Izquierdo"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.111.044024"
-  },
-  {
-    "year": 2024,
-    "title": "Numerical relativity surrogate waveform models for exotic compact objects: The case of head-on mergers of equal-mass Proca stars",
-    "authors": ["Raimon Luna", "M. Llorens-Monteagudo", "A. Lorenzo-Medina", "J. Calderón-Bustillo", "N. Sanchis-Gual", "A. Torres-Forné", "J. A. Font", "C. A. R. Herdeiro", "E. Radu"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.110.024004"
+    "authors": [
+      "Joan Fontbuté",
+      "Tomas Andrade",
+      "Raimon Luna",
+      "Juan Calderón Bustillo",
+      "Gonzalo Morrás",
+      "Santiago Jaraba",
+      "Juan García-Bellido",
+      "López Izquierdo Germán"
+    ],
+    "venue": "Phys. Rev. D, vol. 111, no. 4, p. 044024, 2025.",
+    "doi": "10.1103/PhysRevD.111.044024",
+    "arxiv": "2409.16742",
+    "inspire": null
   },
   {
     "year": 2024,
     "title": "Quasinormal modes in modified gravity using physics-informed neural networks",
-    "authors": ["Raimon Luna", "D. D. Doneva", "J. A. Font", "J. H. Lien", "S. S. Yazadjiev"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.109.124064"
+    "authors": [
+      "Raimon Luna",
+      "D. Doneva Daniela",
+      "A. Font José",
+      "Jr-Hua Lien",
+      "S. Yazadjiev Stoytcho"
+    ],
+    "venue": "Phys. Rev. D, vol. 109, no. 12, p. 124064, 2024.",
+    "doi": "10.1103/PhysRevD.109.124064",
+    "arxiv": "2404.11583",
+    "inspire": null
+  },
+  {
+    "year": 2024,
+    "title": "Numerical relativity surrogate waveform models for exotic compact objects: The case of head-on mergers of equal-mass Proca stars",
+    "authors": [
+      "Raimon Luna",
+      "Miquel Llorens-Monteagudo",
+      "Ana Lorenzo-Medina",
+      "Juan Calderón Bustillo",
+      "Nicolas Sanchis-Gual",
+      "Alejandro Torres-Forné",
+      "A. Font José",
+      "R. Herdeiro Carlos A.",
+      "Eugen Radu"
+    ],
+    "venue": "Phys. Rev. D, vol. 110, no. 2, p. 024004, 2024.",
+    "doi": "10.1103/PhysRevD.110.024004",
+    "arxiv": "2404.01395",
+    "inspire": null
   },
   {
     "year": 2023,
     "title": "Holographic duals of evaporating black holes",
-    "authors": ["R. Emparan", "Raimon Luna", "R. Suzuki", "M. Tomasevic", "B. Way"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP05(2023)182"
-  },
-  {
-    "year": 2023,
-    "title": "Solving the Teukolsky equation with physics-informed neural networks",
-    "authors": ["Raimon Luna", "J. Calderón-Bustillo", "J. J. Seoane Martínez", "A. Torres-Forné", "J. A. Font"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.107.064025"
+    "authors": [
+      "Roberto Emparan",
+      "Raimon Luna",
+      "Ryotaku Suzuki",
+      "Marija Tomašević",
+      "Benson Way"
+    ],
+    "venue": "JHEP, vol. 05, no. , p. 182, 2023.",
+    "doi": "10.1007/JHEP05(2023)182",
+    "arxiv": "2301.02587",
+    "inspire": null
   },
   {
     "year": 2023,
     "title": "Holographic collisions in large D effective theory",
-    "authors": ["Raimon Luna", "M. Sanchez-Garitaonandia"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP02(2023)147"
+    "authors": [
+      "Raimon Luna",
+      "Mikel Sanchez-Garitaonandia"
+    ],
+    "venue": "JHEP, vol. 02, no. , p. 147, 2023.",
+    "doi": "10.1007/JHEP02(2023)147",
+    "arxiv": "2212.14440",
+    "inspire": null
+  },
+  {
+    "year": 2023,
+    "title": "Solving the Teukolsky equation with physics-informed neural networks",
+    "authors": [
+      "Raimon Luna",
+      "Juan Calderón Bustillo",
+      "Seoane Martínez Juan José",
+      "Alejandro Torres-Forné",
+      "A. Font José"
+    ],
+    "venue": "Phys. Rev. D, vol. 107, no. 6, p. 064025, 2023.",
+    "doi": "10.1103/PhysRevD.107.064025",
+    "arxiv": "2212.06103",
+    "inspire": null
   },
   {
     "year": 2022,
     "title": "Kicks in charged black hole binaries",
-    "authors": ["Raimon Luna", "G. Bozzola", "V. Cardoso", "V. Paschalidis", "M. Zilhão"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.106.084017"
+    "authors": [
+      "Raimon Luna",
+      "Gabriele Bozzola",
+      "Vitor Cardoso",
+      "Vasileios Paschalidis",
+      "Miguel Zilhão"
+    ],
+    "venue": "Phys. Rev. D, vol. 106, no. 8, p. 084017, 2022.",
+    "doi": "10.1103/PhysRevD.106.084017",
+    "arxiv": "2207.06429",
+    "inspire": null
   },
   {
     "year": 2022,
     "title": "Lattice black branes at large D",
-    "authors": ["D. Licht", "Raimon Luna", "R. Suzuki"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP04(2022)063"
+    "authors": [
+      "David Licht",
+      "Raimon Luna",
+      "Ryotaku Suzuki"
+    ],
+    "venue": "JHEP, vol. 04, no. , p. 063, 2022.",
+    "doi": "10.1007/JHEP04(2022)063",
+    "arxiv": "2201.11687",
+    "inspire": null
   },
   {
     "year": 2021,
     "title": "Addendum to \"Strong cosmic censorship: The nonlinear story\"",
-    "authors": ["Raimon Luna", "M. Zilhão", "V. Cardoso", "J. L. Costa", "J. Natário"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.103.104043"
+    "authors": [
+      "Raimon Luna",
+      "Miguel Zilhão",
+      "Vitor Cardoso",
+      "L. Costa João",
+      "José Natário"
+    ],
+    "venue": "Phys. Rev. D, vol. 103, no. , p. 104043, 2021.",
+    "doi": "10.1103/PhysRevD.103.104043",
+    "arxiv": "2012.08413",
+    "inspire": null
   },
   {
     "year": 2020,
     "title": "Entropy production and entropic attractors in black hole fusion and fission",
-    "authors": ["T. Andrade", "R. Emparan", "A. Jansen", "D. Licht", "Raimon Luna", "R. Suzuki"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP08(2020)098"
+    "authors": [
+      "Tomas Andrade",
+      "Roberto Emparan",
+      "Aron Jansen",
+      "David Licht",
+      "Raimon Luna",
+      "Ryotaku Suzuki"
+    ],
+    "venue": "JHEP, vol. 08, no. , p. 098, 2020.",
+    "doi": "10.1007/JHEP08(2020)098",
+    "arxiv": "2005.14498",
+    "inspire": null
   },
   {
     "year": 2020,
     "title": "Black Ripples, Flowers and Dumbbells at large D",
-    "authors": ["D. Licht", "Raimon Luna", "R. Suzuki"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP04(2020)108"
+    "authors": [
+      "David Licht",
+      "Raimon Luna",
+      "Ryotaku Suzuki"
+    ],
+    "venue": "JHEP, vol. 04, no. , p. 108, 2020.",
+    "doi": "10.1007/JHEP04(2020)108",
+    "arxiv": "2002.07813",
+    "inspire": null
   },
   {
     "year": 2019,
     "title": "Black hole collisions, instabilities, and cosmic censorship violation at large D",
-    "authors": ["T. Andrade", "R. Emparan", "D. Licht", "Raimon Luna"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP09(2019)099"
+    "authors": [
+      "Tomás Andrade",
+      "Roberto Emparan",
+      "David Licht",
+      "Raimon Luna"
+    ],
+    "venue": "JHEP, vol. 09, no. , p. 099, 2019.",
+    "doi": "10.1007/JHEP09(2019)099",
+    "arxiv": "1908.03424",
+    "inspire": null
   },
   {
     "year": 2019,
     "title": "Challenges to global solutions in Horndeski's theory",
-    "authors": ["L. Bernard", "L. Lehner", "Raimon Luna"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.100.024011"
-  },
-  {
-    "year": 2019,
-    "title": "Black holes, gravitational waves and fundamental physics: A roadmap",
-    "authors": ["L. Barack", "V. Cardoso", "S. Nissanke", "et al."],
-    "venue": "Classical and Quantum Gravity",
-    "doi": "10.1088/1361-6382/ab0587"
-  },
-  {
-    "year": 2019,
-    "title": "Cosmic censorship violation in black hole collisions in higher dimensions",
-    "authors": ["T. Andrade", "R. Emparan", "D. Licht", "Raimon Luna"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP04(2019)121"
+    "authors": [
+      "Laura Bernard",
+      "Luis Lehner",
+      "Raimon Luna"
+    ],
+    "venue": "Phys. Rev. D, vol. 100, no. 2, p. 024011, 2019.",
+    "doi": "10.1103/PhysRevD.100.024011",
+    "arxiv": "1904.12866",
+    "inspire": null
   },
   {
     "year": 2019,
     "title": "Strong cosmic censorship: The nonlinear story",
-    "authors": ["Raimon Luna", "M. Zilhão", "V. Cardoso", "J. L. Costa", "J. Natário"],
-    "venue": "Physical Review D",
-    "doi": "10.1103/PhysRevD.99.064014"
+    "authors": [
+      "Raimon Luna",
+      "Miguel Zilhão",
+      "Vitor Cardoso",
+      "L. Costa João",
+      "José Natário"
+    ],
+    "venue": "Phys. Rev. D, vol. 99, no. 6, p. 064014, 2019.",
+    "doi": "10.1103/PhysRevD.99.064014",
+    "arxiv": "1810.00886",
+    "inspire": null
+  },
+  {
+    "year": 2019,
+    "title": "Cosmic censorship violation in black hole collisions in higher dimensions",
+    "authors": [
+      "Tomás Andrade",
+      "Roberto Emparan",
+      "David Licht",
+      "Raimon Luna"
+    ],
+    "venue": "JHEP, vol. 04, no. , p. 121, 2019.",
+    "doi": "10.1007/JHEP04(2019)121",
+    "arxiv": "1812.05017",
+    "inspire": null
+  },
+  {
+    "year": 2019,
+    "title": "Black holes, gravitational waves and fundamental physics: a roadmap",
+    "authors": [
+      "Leor Barack",
+      "others"
+    ],
+    "venue": "Class. Quant. Grav., vol. 36, no. 14, p. 143001, 2019.",
+    "doi": "10.1088/1361-6382/ab0587",
+    "arxiv": "1806.05195",
+    "inspire": null
   },
   {
     "year": 2018,
-    "title": "Phases and stability of non-uniform black strings",
-    "authors": ["R. Emparan", "Raimon Luna", "M. Martínez", "R. Suzuki", "K. Tanabe"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP05(2018)104"
+    "title": "Phases and Stability of Non-Uniform Black Strings",
+    "authors": [
+      "Roberto Emparan",
+      "Raimon Luna",
+      "Marina Martínez",
+      "Ryotaku Suzuki",
+      "Kentaro Tanabe"
+    ],
+    "venue": "JHEP, vol. 05, no. , p. 104, 2018.",
+    "doi": "10.1007/JHEP05(2018)104",
+    "arxiv": "1802.08191",
+    "inspire": null
   },
   {
     "year": 2017,
     "title": "Geometric polarization of plasmas and Love numbers of AdS black branes",
-    "authors": ["R. Emparan", "A. Fernández-Piqué", "Raimon Luna"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP09(2017)150"
+    "authors": [
+      "Roberto Emparan",
+      "Alejandro Fernandez-Piqué",
+      "Raimon Luna"
+    ],
+    "venue": "JHEP, vol. 09, no. , p. 150, 2017.",
+    "doi": "10.1007/JHEP09(2017)150",
+    "arxiv": "1707.02777",
+    "inspire": null
   },
   {
-    "year": 2016,
+    "year": 2017,
     "title": "Semiconductor laser linewidth reduction by six orders of magnitude via delayed optical feedback",
-    "authors": ["D. Brunner", "Raimon Luna", "A. Delhom i Latorre", "X. Porte", "I. Fischer"],
-    "venue": "Optics Letters",
-    "doi": "10.1364/OL.42.000163"
+    "authors": [
+      "David Brunner",
+      "Raimon Luna",
+      "Adrià Delhom i Latorre",
+      "Xavier Porte",
+      "Ingo Fischer"
+    ],
+    "venue": "Opt. Lett., vol. 42, no. 1, p. 163--166, 2017.",
+    "doi": "10.1364/OL.42.000163",
+    "arxiv": null,
+    "inspire": null
   },
   {
     "year": 2016,
-    "title": "Hydro-elastic complementarity in black branes at large D",
-    "authors": ["R. Emparan", "K. Izumi", "Raimon Luna", "R. Suzuki", "K. Tanabe"],
-    "venue": "Journal of High Energy Physics",
-    "doi": "10.1007/JHEP06(2016)117"
+    "title": "Hydro-elastic Complementarity in Black Branes at large D",
+    "authors": [
+      "Roberto Emparan",
+      "Keisuke Izumi",
+      "Raimon Luna",
+      "Ryotaku Suzuki",
+      "Kentaro Tanabe"
+    ],
+    "venue": "JHEP, vol. 06, no. , p. 117, 2016.",
+    "doi": "10.1007/JHEP06(2016)117",
+    "arxiv": "1602.05752",
+    "inspire": null
   }
 ]
